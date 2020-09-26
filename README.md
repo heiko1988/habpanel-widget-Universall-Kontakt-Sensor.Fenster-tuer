@@ -11,15 +11,18 @@ Alle Akku Anzeigen Per Checkbox, Aus und Einschalten über die Settings
 
 Bild Anzeige mit 4 Sensoren + Akku Anzeige
 
-![alt text](https://www.bilder-upload.eu/upload/db6cc3-1601121708.png)
+
+<img src="https://www.bilder-upload.eu/upload/db6cc3-1601121708.png" width="30%" />
 
 Bild Anzeige mit 2 Sensoren Ohne Akku Anzeige
 
-![alt text](https://www.bilder-upload.eu/upload/8fa8b9-1601121729.png)
+
+<img src="https://www.bilder-upload.eu/upload/8fa8b9-1601121729.png" width="30%" />
 
 Bild Anzeige Settings
 
-![alt text](https://www.bilder-upload.eu/upload/116b63-1601121681.png)
+
+<img src="https://www.bilder-upload.eu/upload/116b63-1601121681.png" width="30%" />
 
 
 
