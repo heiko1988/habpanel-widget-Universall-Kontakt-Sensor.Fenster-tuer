@@ -1,0 +1,279 @@
+{
+    "template": "<style>\n   \nth, td {\n   border: 1px solid gray;\n   padding: 1px;\n   font-family: 'Liberation Sans', Arial, Helvetica, sans-serif;\n   font-size: 90%;\n   text-align: center;\n   vertical-align: center;\n}\n</style>\n<center>\n<table width=\"100%\">\n  \n  \n  \n  <!-- ### Fenster 1 ###   -->\n\t\t\t\t<tr ng-hide=\"itemValue(config.fenster1_anzeigen)\">\n\t\t\t\t\t\t\t<td>\n         {{config.fenster1_name}}\n        \n                \n          \t\t</td>  \n          <td>        \n  \n <div ng-hide=\"itemValue(config.fenster1_invert)\"> \n   \n        \t\t<div ng-if=\"itemValue(config.fenster1_stat) =='false'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-open'\" size=\"44\"/>\n        \t\t</div>\n   \n        \t\t<div ng-if=\"itemValue(config.fenster1_stat) =='true'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-closed'\" size=\"44\"/>\n        \t\t</div>\n</div>\n          \n<div ng-show=\"itemValue(config.fenster1_invert)\">                \n        <div> \n        \t\t<div ng-if=\"itemValue(config.fenster1_stat) =='true'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-open'\" size=\"44\"/>\n        \t\t</div>\n        \t\t<div ng-if=\"itemValue(config.fenster1_stat) =='false'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-closed'\" size=\"44\"/>\n        \t\t</div>\n\t\t\t\t</div>          \n</div>     \n           \t\n          \t\t</td>\n          \t\t<td ng-hide=\"itemValue(config.fenster_all_bat)\">\n          {{itemValue(config.fenster1_bat)}}%\n          \t\t</td>  \n  \t\t\t</tr>\n  \n  <!-- ### Fenster 2 ###   -->\n \t\t\t\t<tr ng-hide=\"itemValue(config.fenster2_anzeigen)\">\n\t\t\t\t\t\t\t<td>\n          {{config.fenster2_name}} \n          \t\t</td>  \n\t\t\t\t\t\t\t<td>\n <div ng-hide=\"itemValue(config.fenster2_invert)\"> \n   \n        \t\t<div ng-if=\"itemValue(config.fenster2_stat) =='false'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-open'\" size=\"44\"/>\n        \t\t</div>\n   \n        \t\t<div ng-if=\"itemValue(config.fenster2_stat) =='true'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-closed'\" size=\"44\"/>\n        \t\t</div>\n</div>\n          \n<div ng-show=\"itemValue(config.fenster2_invert)\">                \n        <div> \n        \t\t<div ng-if=\"itemValue(config.fenster2_stat) =='true'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-open'\" size=\"44\"/>\n        \t\t</div>\n        \t\t<div ng-if=\"itemValue(config.fenster2_stat) =='false'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-closed'\" size=\"44\"/>\n        \t\t</div>\n\t\t\t\t</div>          \n</div>   \n          \t\t</td> \n            \t<td ng-hide=\"itemValue(config.fenster_all_bat)\">\n          {{itemValue(config.fenster2_bat)}}%\n          \t\t</td>  \n  \t\t\t</tr>\n  \n  <!-- ### Fenster 3 ###   -->\n   \t\t\t\t<tr ng-hide=\"itemValue(config.fenster3_anzeigen)\">\n\t\t\t\t\t\t\t<td>\n          {{config.fenster3_name}} \n          \t\t</td>  \n\t\t\t\t\t\t\t<td>\n <div ng-hide=\"itemValue(config.fenster3_invert)\"> \n   \n        \t\t<div ng-if=\"itemValue(config.fenster3_stat) =='false'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-open'\" size=\"44\"/>\n        \t\t</div>\n   \n        \t\t<div ng-if=\"itemValue(config.fenster3_stat) =='true'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-closed'\" size=\"44\"/>\n        \t\t</div>\n</div>\n          \n<div ng-show=\"itemValue(config.fenster3_invert)\">                \n        <div> \n        \t\t<div ng-if=\"itemValue(config.fenster3_stat) =='true'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-open'\" size=\"44\"/>\n        \t\t</div>\n        \t\t<div ng-if=\"itemValue(config.fenster3_stat) =='false'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-closed'\" size=\"44\"/>\n        \t\t</div>\n\t\t\t\t</div>          \n</div>  \n          \t\t</td> \n            \t<td ng-hide=\"itemValue(config.fenster_all_bat)\">\n          {{itemValue(config.fenster3_bat)}}%\n          \t\t</td>   \n  \t\t\t</tr> \n  <!-- ### Fenster 4 ###   -->\n   \t\t\t\t<tr ng-hide=\"itemValue(config.fenster4_anzeigen)\">\n\t\t\t\t\t\t\t<td>\n          {{config.fenster4_name}} \n          \t\t</td>  \n\t\t\t\t\t\t\t<td>\n <div ng-hide=\"itemValue(config.fenster4_invert)\"> \n   \n        \t\t<div ng-if=\"itemValue(config.fenster4_stat) =='false'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-open'\" size=\"44\"/>\n        \t\t</div>\n   \n        \t\t<div ng-if=\"itemValue(config.fenster4_stat) =='true'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-closed'\" size=\"44\"/>\n        \t\t</div>\n</div>\n          \n<div ng-show=\"itemValue(config.fenster4_invert)\">                \n        <div> \n        \t\t<div ng-if=\"itemValue(config.fenster4_stat) =='true'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-open'\" size=\"44\"/>\n        \t\t</div>\n        \t\t<div ng-if=\"itemValue(config.fenster4_stat) =='false'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-closed'\" size=\"44\"/>\n        \t\t</div>\n\t\t\t\t</div>          \n</div>  \n            </td>\n            \t<td ng-hide=\"itemValue(config.fenster_all_bat)\">\n          {{itemValue(config.fenster4_bat)}}%\n          \t\t</td>  \n  \t\t\t</tr> \n  <!-- ### Fenster 5 ###   -->\n   \t\t\t\t<tr ng-hide=\"itemValue(config.fenster5_anzeigen)\">\n\t\t\t\t\t\t\t<td>\n          {{config.fenster5_name}} \n          \t\t</td>  \n\t\t\t\t\t\t\t<td>\n <div ng-hide=\"itemValue(config.fenster5_invert)\"> \n   \n        \t\t<div ng-if=\"itemValue(config.fenster5_stat) =='false'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-open'\" size=\"44\"/>\n        \t\t</div>\n   \n        \t\t<div ng-if=\"itemValue(config.fenster5_stat) =='true'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-closed'\" size=\"44\"/>\n        \t\t</div>\n</div>\n          \n<div ng-show=\"itemValue(config.fenster5_invert)\">                \n        <div> \n        \t\t<div ng-if=\"itemValue(config.fenster5_stat) =='true'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-open'\" size=\"44\"/>\n        \t\t</div>\n        \t\t<div ng-if=\"itemValue(config.fenster5_stat) =='false'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-closed'\" size=\"44\"/>\n        \t\t</div>\n\t\t\t\t</div>          \n</div>  \n          \t\t</td>  \n            \t<td ng-hide=\"itemValue(config.fenster_all_bat)\">\n          {{itemValue(config.fenster5_bat)}}%\n          \t\t</td>   \n  \t\t\t</tr> \n  \n  <!-- ### Fenster 6 ###   -->\n   \t\t\t\t<tr ng-hide=\"itemValue(config.fenster6_anzeigen)\">\n\t\t\t\t\t\t\t<td>\n          {{config.fenster6_name}} \n          \t\t</td>  \n\t\t\t\t\t\t\t<td>\n <div ng-hide=\"itemValue(config.fenster6_invert)\"> \n   \n        \t\t<div ng-if=\"itemValue(config.fenster6_stat) =='false'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-open'\" size=\"44\"/>\n        \t\t</div>\n   \n        \t\t<div ng-if=\"itemValue(config.fenster6_stat) =='true'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-closed'\" size=\"44\"/>\n        \t\t</div>\n</div>\n          \n<div ng-show=\"itemValue(config.fenster6_invert)\">                \n        <div> \n        \t\t<div ng-if=\"itemValue(config.fenster6_stat) =='true'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-open'\" size=\"44\"/>\n        \t\t</div>\n        \t\t<div ng-if=\"itemValue(config.fenster6_stat) =='false'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-closed'\" size=\"44\"/>\n        \t\t</div>\n\t\t\t\t</div>          \n</div>  \n          \t\t</td> \n            \t<td ng-hide=\"itemValue(config.fenster_all_bat)\">\n          {{itemValue(config.fenster7_bat)}}%\n          \t\t</td>  \n  \t\t\t</tr> \n  <!-- ### Fenster 7 ###   -->\n     \t\t\t\t<tr ng-hide=\"itemValue(config.fenster7_anzeigen)\">\n\t\t\t\t\t\t\t<td>\n          {{config.fenster7_name}} \n          \t\t</td>  \n\t\t\t\t\t\t\t<td>     \n <div ng-hide=\"itemValue(config.fenster7_invert)\"> \n   \n        \t\t<div ng-if=\"itemValue(config.fenster7_stat) =='false'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-open'\" size=\"44\"/>\n        \t\t</div>\n   \n        \t\t<div ng-if=\"itemValue(config.fenster7_stat) =='true'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-closed'\" size=\"44\"/>\n        \t\t</div>\n</div>\n          \n<div ng-show=\"itemValue(config.fenster7_invert)\">                \n        <div> \n        \t\t<div ng-if=\"itemValue(config.fenster7_stat) =='true'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-open'\" size=\"44\"/>\n        \t\t</div>\n        \t\t<div ng-if=\"itemValue(config.fenster7_stat) =='false'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-closed'\" size=\"44\"/>\n        \t\t</div>\n\t\t\t\t</div>          \n</div>  \n          \t\t</td> \n            \t<td ng-hide=\"itemValue(config.fenster_all_bat)\">\n          {{itemValue(config.fenster7_bat)}}%\n          \t\t</td>  \n  \t\t\t</tr> \n  <!-- ### Fenster 8 ###   -->\n     \t\t\t\t<tr ng-hide=\"itemValue(config.fenster8_anzeigen)\">\n\t\t\t\t\t\t\t<td>\n          {{config.fenster8_name}} \n          \t\t</td>  \n\t\t\t\t\t\t\t<td>\n <div ng-hide=\"itemValue(config.fenster8_invert)\"> \n   \n        \t\t<div ng-if=\"itemValue(config.fenster8_stat) =='false'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-open'\" size=\"44\"/>\n        \t\t</div>\n   \n        \t\t<div ng-if=\"itemValue(config.fenster8_stat) =='true'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-closed'\" size=\"44\"/>\n        \t\t</div>\n</div>\n          \n<div ng-show=\"itemValue(config.fenster8_invert)\">                \n        <div> \n        \t\t<div ng-if=\"itemValue(config.fenster8_stat) =='true'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-open'\" size=\"44\"/>\n        \t\t</div>\n        \t\t<div ng-if=\"itemValue(config.fenster8_stat) =='false'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-closed'\" size=\"44\"/>\n        \t\t</div>\n\t\t\t\t</div>          \n</div>  \n          \t\t</td> \n            \t<td ng-hide=\"itemValue(config.fenster_all_bat)\">\n          {{itemValue(config.fenster8_bat)}}%\n          \t\t</td>  \n  \t\t\t</tr>\n  <!-- ### Fenster 9 ###   -->\n     \t\t\t\t<tr ng-hide=\"itemValue(config.fenster9_anzeigen)\">\n\t\t\t\t\t\t\t<td>\n          {{config.fenster9_name}} \n          \t\t</td>  \n\t\t\t\t\t\t\t<td>\n <div ng-hide=\"itemValue(config.fenster9_invert)\"> \n   \n        \t\t<div ng-if=\"itemValue(config.fenster9_stat) =='false'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-open'\" size=\"44\"/>\n        \t\t</div>\n   \n        \t\t<div ng-if=\"itemValue(config.fenster9_stat) =='true'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-closed'\" size=\"44\"/>\n        \t\t</div>\n</div>\n          \n<div ng-show=\"itemValue(config.fenster9_invert)\">                \n        <div> \n        \t\t<div ng-if=\"itemValue(config.fenster9_stat) =='true'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-open'\" size=\"44\"/>\n        \t\t</div>\n        \t\t<div ng-if=\"itemValue(config.fenster9_stat) =='false'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-closed'\" size=\"44\"/>\n        \t\t</div>\n\t\t\t\t</div>          \n</div>  \n          \t\t</td> \n            \t<td ng-hide=\"itemValue(config.fenster_all_bat)\">\n          {{itemValue(config.fenster9_bat)}}%\n          \t\t</td>  \n  \t\t\t</tr> \n  <!-- ### Fenster 10 ###   -->\n     \t\t\t\t<tr ng-hide=\"itemValue(config.fenster10_anzeigen)\">\n\t\t\t\t\t\t\t<td>\n          {{config.fenster10_name}} \n          \t\t</td>  \n\t\t\t\t\t\t\t<td>\n <div ng-hide=\"itemValue(config.fenster10_invert)\"> \n   \n        \t\t<div ng-if=\"itemValue(config.fenster10_stat) =='false'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-open'\" size=\"44\"/>\n        \t\t</div>\n   \n        \t\t<div ng-if=\"itemValue(config.fenster10_stat) =='true'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-closed'\" size=\"44\"/>\n        \t\t</div>\n</div>\n          \n<div ng-show=\"itemValue(config.fenster10_invert)\">                \n        <div> \n        \t\t<div ng-if=\"itemValue(config.fenster10_stat) =='true'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-open'\" size=\"44\"/>\n        \t\t</div>\n        \t\t<div ng-if=\"itemValue(config.fenster10_stat) =='false'\">\n            <widget-icon iconset=\"'eclipse-smarthome-classic'\" icon=\"'window-closed'\" size=\"44\"/>\n        \t\t</div>\n\t\t\t\t</div>          \n</div>  \n          \t\t</td> \n            \t<td ng-hide=\"itemValue(config.fenster_all_bat)\">\n          {{itemValue(config.fenster10_bat)}}%\n          \t\t</td>  \n  \t\t\t</tr> \n</table>\n</center>",
+    "settings": [
+        {
+            "type": "checkbox",
+            "id": "fenster_all_bat",
+            "label": "Batterie Status in Tabelle Anzeigen",
+            "default": true
+        },
+        {
+            "type": "checkbox",
+            "default": true,
+            "id": "fenster1_anzeigen",
+            "label": "Fenster 1 Anzeigen in Tabelle"
+        },
+        {
+            "type": "string",
+            "id": "fenster1_name",
+            "label": "fenster1_name",
+            "default": "Fenster oder Tür Namen"
+        },
+        {
+            "type": "item",
+            "id": "fenster1_stat",
+            "label": "fenster1_stat",
+            "default": ""
+        },
+        {
+            "type": "checkbox",
+            "id": "fenster1_invert",
+            "choices": "an, aus",
+            "label": "fenster1_invert",
+            "default": "aus"
+        },
+        {
+            "type": "item",
+            "id": "fenster1_bat",
+            "label": "fenster1_bat"
+        },
+        {
+            "type": "checkbox",
+            "id": "fenster2_anzeigen",
+            "label": "Fenster 2 Anzeigen in Tabelle"
+        },
+        {
+            "type": "string",
+            "id": "fenster2_name",
+            "label": "fenster2_name",
+            "default": "Fenster oder Tür Namen"
+        },
+        {
+            "type": "item",
+            "id": "fenster2_stat",
+            "label": "fenster2_stat"
+        },
+        {
+            "type": "checkbox",
+            "id": "fenster2_invert",
+            "label": "fenster2_invert",
+            "default": false
+        },
+        {
+            "type": "item",
+            "id": "fenster2_bat",
+            "label": "fenster2_bat"
+        },
+        {
+            "type": "checkbox",
+            "id": "fenster3_anzeigen",
+            "label": "Fenster 3 Anzeigen in Tabelle"
+        },
+        {
+            "type": "string",
+            "id": "fenster3_name",
+            "label": "fenster3_name",
+            "default": "Fenster oder Tür Namen"
+        },
+        {
+            "type": "item",
+            "id": "fenster3_stat",
+            "label": "fenster3_stat"
+        },
+        {
+            "type": "checkbox",
+            "id": "fenster3_invert",
+            "label": "fenster3_invert"
+        },
+        {
+            "type": "item",
+            "id": "fenster3_bat",
+            "label": "fenster3_bat"
+        },
+        {
+            "type": "checkbox",
+            "id": "fenster4_anzeigen",
+            "label": "Fenster 4 Anzeigen in Tabelle"
+        },
+        {
+            "type": "string",
+            "id": "fenster4_name",
+            "label": "fenster4_name",
+            "default": "Fenster oder Tür Namen"
+        },
+        {
+            "type": "item",
+            "id": "fenster4_stat",
+            "label": "fenster4_stat"
+        },
+        {
+            "type": "checkbox",
+            "id": "fenster4_invert",
+            "label": "fenster4_invert"
+        },
+        {
+            "type": "item",
+            "id": "fenster4_bat",
+            "label": "fenster4_bat"
+        },
+        {
+            "type": "checkbox",
+            "id": "fenster5_anzeigen",
+            "label": "Fenster 5 Anzeigen in Tabelle"
+        },
+        {
+            "type": "string",
+            "id": "fenster5_name",
+            "label": "fenster5_name",
+            "default": "Fenster oder Tür Namen"
+        },
+        {
+            "type": "item",
+            "id": "fenster5_stat",
+            "label": "fenster5_stat"
+        },
+        {
+            "type": "checkbox",
+            "id": "fenster5_invert",
+            "label": "fenster5_invert"
+        },
+        {
+            "type": "item",
+            "id": "fenster5_bat",
+            "label": "fenster5_bat"
+        },
+        {
+            "type": "checkbox",
+            "id": "fenster6_anzeigen",
+            "label": "Fenster 6 Anzeigen in Tabelle"
+        },
+        {
+            "type": "string",
+            "id": "fenster6_name",
+            "label": "fenster6_name",
+            "default": "Fenster oder Tür Namen"
+        },
+        {
+            "type": "item",
+            "id": "fenster6_stat",
+            "label": "fenster6_stat"
+        },
+        {
+            "type": "checkbox",
+            "id": "fenster6_invert",
+            "label": "fenster6_invert"
+        },
+        {
+            "type": "item",
+            "id": "fenster6_bat",
+            "label": "fenster6_bat"
+        },
+        {
+            "type": "checkbox",
+            "id": "fenster7_anzeigen",
+            "label": "Fenster 7 Anzeigen in Tabelle"
+        },
+        {
+            "type": "string",
+            "id": "fenster7_name",
+            "label": "fenster7_name",
+            "default": "Fenster oder Tür Namen"
+        },
+        {
+            "type": "item",
+            "id": "fenster7_stat",
+            "label": "fenster7_stat"
+        },
+        {
+            "type": "checkbox",
+            "id": "fenster7_invert",
+            "label": "fenster7_invert"
+        },
+        {
+            "type": "item",
+            "id": "fenster7_bat",
+            "label": "fenster7_bat"
+        },
+        {
+            "type": "checkbox",
+            "id": "fenster8_anzeigen",
+            "label": "Fenster 8 Anzeigen in Tabelle"
+        },
+        {
+            "type": "string",
+            "id": "fenster8_name",
+            "label": "fenster8_name",
+            "default": "Fenster oder Tür Namen"
+        },
+        {
+            "type": "item",
+            "id": "fenster8_stat",
+            "label": "fenster8_stat"
+        },
+        {
+            "type": "checkbox",
+            "id": "fenster8_invert",
+            "label": "fenster8_invert"
+        },
+        {
+            "type": "item",
+            "id": "fenster8_bat",
+            "label": "fenster8_bat"
+        },
+        {
+            "type": "checkbox",
+            "id": "fenster9_anzeigen",
+            "label": "Fenster 9 Anzeigen in Tabelle"
+        },
+        {
+            "type": "string",
+            "id": "fenster9_name",
+            "label": "fenster9_name",
+            "default": "Fenster oder Tür Namen"
+        },
+        {
+            "type": "item",
+            "id": "fenster9_stat",
+            "label": "fenster9_stat"
+        },
+        {
+            "type": "checkbox",
+            "id": "fenster9_invert",
+            "label": "fenster9_invert"
+        },
+        {
+            "type": "item",
+            "id": "fenster9_bat",
+            "label": "fenster9_bat"
+        },
+        {
+            "type": "checkbox",
+            "id": "fenster10_anzeigen",
+            "label": "Fenster 10 Anzeigen in Tabelle"
+        },
+        {
+            "type": "string",
+            "id": "fenster10_name",
+            "label": "fenster10_name",
+            "default": "Fenster oder Tür Namen"
+        },
+        {
+            "type": "item",
+            "id": "fenster10_stat",
+            "label": "fenster10_stat"
+        },
+        {
+            "type": "checkbox",
+            "id": "fenster10_invert",
+            "label": "fenster10_invert"
+        },
+        {
+            "type": "item",
+            "id": "fenster10_bat",
+            "label": "fenster10_bat"
+        }
+    ],
+    "name": "Fenster und Tür kontakte Status + Bat Anzeige",
+    "author": "Heiko Schweder",
+    "description": ""
+}
