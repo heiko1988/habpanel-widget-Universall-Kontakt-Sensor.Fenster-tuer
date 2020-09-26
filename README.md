@@ -1,13 +1,13 @@
 # habpanel-widget-Universall-Kontakt-Sensor.Fenster-tuer
 habpanel-widget-Universall-Kontakt-Sensor.Fenster-tuer
 
-10 Anzeigen Variabel ein und Ausblendbar
+10 Anzeigen Variabel ein und Ausblendbar, per Checkbox über die Settings
 
 Name / Status / Akku %
 
 In Den Settings ist Der Satus invertierbar Für jeden Einzelne Status, um True/ False (Offen / Geschlossen ) zu Tauschen.
 
-Akku Anzeige Per Checkbox Aus und Einschalten
+Alle Akku Anzeigen Per Checkbox, Aus und Einschalten über die Settings
 
 Bild Anzeige mit 4 Sensoren + Akku Anzeige
 
