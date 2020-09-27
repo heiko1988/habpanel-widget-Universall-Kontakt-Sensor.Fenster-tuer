@@ -9,6 +9,8 @@ In Den Settings ist Der Satus invertierbar Für jeden Einzelne Status, um True/ 
 
 Alle Akku Anzeigen Per Checkbox, Aus und Einschalten über die Settings
 
+Alle Fenster Namen sind Per Checkbox, Aus und Einschaltbar über die Settings
+
 Bild Anzeige mit 4 Sensoren + Akku Anzeige
 
 
