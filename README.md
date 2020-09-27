@@ -21,7 +21,7 @@ Bild Anzeige mit 2 Sensoren Ohne Akku Anzeige
 
 <img src="https://www.bilder-upload.eu/upload/8fa8b9-1601121729.png" width="30%" />
 
-Bild Anzeige mit 2 Sensoren Ohne Akku Anzeige
+Bild Anzeige mit 2 Sensoren Ohne Akku Anzeige und ohne Namen
 
 
 <img src="https://www.bilder-upload.eu/upload/e68c3a-1601191179.png" width="30%" />
